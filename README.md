@@ -1,8 +1,7 @@
-# qb-mushroomjob
-https://github.com/Predator7158
-
+# qb-lettucejob
+https://github.com/GabbarFramework
 Join My Server
-https://discord.gg/nbMazBXaVa
+https://discord.gg/Pv4MG7HXwB
 
 I used qb-weedpicking as the Base
 
@@ -14,9 +13,9 @@ Step 1
 Make sure you add the images that i gave to the inventory and open the shared.lua and add the text given to
 qb-core/shared.lua
 
-['mushroom'] 				 	 = {['name'] = 'mushroom', 			  	  	['label'] = 'Mushroom', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'mushroom.png', 	   		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	  ['combinable'] = nil,   ['description'] = 'Healthy Plant'},
+['lettuce'] 				 	 = {['name'] = 'lettuce', 			  	  	['label'] = 'Lwttuce', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'lettuce.png', 	   		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	  ['combinable'] = nil,   ['description'] = 'Healthy Plant'},
 
-['mushroom_stew'] 				 = {['name'] = 'mushroom_stew', 			  	['label'] = 'Mushroom Stew', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'mushroom_stew.png', 	   	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	  ['combinable'] = nil,   ['description'] = 'For all Thirsty out there'},
+['cooked_lettuce'] 				 = {['name'] = 'cooked_lettuce', 			  	['label'] = 'Cooked Lettuce', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'cooked_lettuce.png', 	   	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	  ['combinable'] = nil,   ['description'] = 'Healthy Lettuce'},
 
 Step 2
 Make sure to add these in qb-core/client/functions.lua
